@@ -2,7 +2,7 @@
 /**
  * Plugin Name: BLOM Website Login Lock
  * Description: Voegt een subtiel, zwevend inlogslotje toe (rechtsboven op desktop, rechtsonder op mobiel) met dynamische URL-bepaling.
- * Version: 1.2.0
+ * Version: 1.0.0
  * Author: BLOM
  */
 
