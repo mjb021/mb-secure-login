@@ -3,7 +3,7 @@ name: Generate WordPress Plugin Zip on Main Merge
 on:
   push:
     branches:
-      - main  # Start only on a push or merge to the main branch
+      - master  # Start only on a push or merge to the main branch
 
 jobs:
   build:
