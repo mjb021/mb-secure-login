@@ -1,0 +1,52 @@
+/* ==========================================================================
+   BLOM Login Lock - Core Styles
+   ========================================================================== */
+
+/* --- Desktop weergave (Rechtsboven) --- */
+.extern-login-slot {
+    position: fixed !important;
+    top: 8px !important;
+    right: 6px !important;
+    z-index: 99999 !important;
+    width: 42px;
+    text-align: center;
+}
+
+.extern-login-slot a {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.extern-login-slot a:hover {
+    opacity: 1;
+}
+
+/* --- Responsive Mobiel / iPhone (Rechtsonder) --- */
+@media (max-width: 767px) {
+    .extern-login-slot {
+        top: auto !important;
+        bottom: 20px !important;
+        right: 20px !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        border: 1px solid #cccccc !important;
+        border-radius: 50% !important;
+        width: 42px !important;
+        height: 42px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .extern-login-slot a {
+        font-size: 20px !important;
+        line-height: 1 !important;
+    }
+}
+
+/* Zorg dat de menubalk stopt vóór het slotje */
+div#navwrap nav {
+    padding-right: 46px !important;
+}
